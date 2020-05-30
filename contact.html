@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>
+	</title>
+
+	<SCRIPT language="JavaScript"><!--
+    	var statusMsg = "Password Protected Area"
+
+	function gateKeeper() {
+   		var password = prompt("Password required: (hint - matts kit car)", "");
+   		this.location.href = password + ".html";
+	}
+	//--></SCRIPT>
+
+</head>
+<body>
+
+	<h1><font face="courier new">
+	contact us
+	<br/>
+	----------
+	</font></h1>
+	<br/>
+
+	<p><font face="courier new">
+
+	<a href="mailto:info@daijones.tk">info@daijones.tk</a>
+
+	<br/><br/>
+
+	<A HREF="javascript:gateKeeper()"
+   	onMouseOver="self.status=statusMsg; return true"
+   	onMouseOut="self.status=''; return true"
+   	onClick="gateKeeper(); return false">Click here</A> for the members contact list (password required)
+
+	</font></p>
+
+</body>
+</html>
